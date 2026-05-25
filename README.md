@@ -34,20 +34,20 @@ The first thing you'll want to do is download the Forge installer. This process 
 1. Download the version of Forge you want from their website [here](https://minecraftforge.net/) ([downloads page](https://files.minecraftforge.net/)).
     * Ensure to select the correct version of Minecraft and Forge.
 2. Click the **Installer** download button on the page.
-![Forge Download](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/download01.png)
-![Forge Download #2](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/download02.png)
+![Forge Download](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/download01.png)
+![Forge Download #2](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/download02.png)
 3. Open the folder or directory where the installer was downloaded.
     - If this is for a server on Windows, you can create a new folder for your server that you'll point the GUI installer to later.
 
 On Windows, your file explorer should look like this, with a file named something like `forge-{VERSION}-installer.jar`.
 
-![Forge Windows Explorer View](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/win_explorer.png)
+![Forge Windows Explorer View](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/win_explorer.png)
 
 ## Running & Installing
 ### Through the GUI Installer
 If you intend to run the installer through the GUI, simply double-click the installer JAR file. This will open the Forge installer interface.
 
-![Forge Installer GUI](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/gui_start.png)
+![Forge Installer GUI](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/gui_start.png)
 
 #### Client Installation
 If you're installing Forge for your client, we recommend creating a new installation profile through the Minecraft Launcher to keep things organized. This way, you can easily switch between different versions of Minecraft and Forge without affecting your main installation.
@@ -56,14 +56,14 @@ In order to do this, please follow these steps:
 
 1. Open the Minecraft Launcher and click on the **Installations** tab at the top.
 2. Click the **New installation** button to create a new installation profile.
-![New Installation Button](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/gui_client_install_new.png)
+![New Installation Button](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/gui_client_install_new.png)
 3. Fill out the installation details:
     - **Name** (1): Give your installation a name (e.g., "Forge Test 1.20.1").
     - **Version** (2): Select the version of Minecraft that matches the Forge version you downloaded.
     - **Game Directory** (3): You can leave this as default or specify a custom directory if you want to keep it separate from your main Minecraft installation.
 4. Click the **Install** button to create the new installation profile.
     - You may want to uncheck the **Launch after Install** option if you want to install Forge first before launching the game.
-![New Installation Profile](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/gui_client_install_new-2.png)
+![New Installation Profile](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/gui_client_install_new-2.png)
 
 After creating a new installation profile, you can proceed with the Forge installation:
 
@@ -72,7 +72,7 @@ After creating a new installation profile, you can proceed with the Forge instal
     - By default, it should point to the correct location.
     - On Windows, this is typically: `C:\Users\{USER}\AppData\Roaming\.minecraft`
 3. Click the **OK** button to start the installation process.
-![Forge Installer Client](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/gui_client_config.png)
+![Forge Installer Client](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/gui_client_config.png)
 4. Wait for the installer to download and set up Forge. This may take a few minutes depending on your internet speed and computer performance.
 5. Once the installation is complete, you can launch Minecraft using the Forge profile that was created during the installation process.
 
@@ -84,15 +84,15 @@ The server installation process is similar, but it has the option to create a se
     - The folder **must** be empty before proceeding with the installation!
 3. Click the **OK** button to start the installation process.
 
-![Forge Installer Server](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/gui_server_config.png)
+![Forge Installer Server](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/gui_server_config.png)
 
 This will download the necessary server files and set up Forge for your server.
 
-![Forge Installer Server Progress](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/gui_server_progress.png)
+![Forge Installer Server Progress](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/gui_server_progress.png)
 
 Once the installation is complete, you can start your server using the generated `run.bat` file on Windows or `run.sh` on Linux.
 
-![Forge Installer Server Double Click](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/gui_server_win_run.png)
+![Forge Installer Server Double Click](https://github.com/modcommunity/how-to-download-and-install-forge-on-minecraft-client-and-server/raw/main/images/gui_server_win_run.png)
 
 **WARNING**: When you initially start the server, the server will exit stating you need to accept the EULA. You can do this by opening the `eula.txt` file and changing `eula=false` to `eula=true`. After accepting the EULA, you can restart the server, and it should run with Forge installed.
 
